@@ -2,6 +2,7 @@
 
 error_reporting(-1);
 
+// изображение не 20000х20000 конечно, но как я понял смысл в том, что оно квадратное, а вывести нужно прямоугольное
 $bigImage = imagecreatefrompng('test.png');
 $tempImageName = rand(1, 10000) . '.png';
 
